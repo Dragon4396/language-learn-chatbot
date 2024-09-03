@@ -16,7 +16,7 @@ const Header = () => {
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
             <Container fluid>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Brand href="/">LanguaChat</Navbar.Brand>
+            <Navbar.Brand href="/" className="mx-auto">LanguaChat</Navbar.Brand>
             <Navbar.Offcanvas
                 id={`offcanvasNavbar-expand-${expand}`}
                 aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
