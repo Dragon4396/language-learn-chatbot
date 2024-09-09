@@ -1,6 +1,6 @@
-const express = require('express')
-const users = require('./data/users')
-const dotenv = require('dotenv')
+import express from 'express'
+import dotenv from 'dotenv'
+import users from './data/users.js'
 
 dotenv.config()
 const app = express()
